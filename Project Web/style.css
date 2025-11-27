@@ -468,7 +468,7 @@ body {
 	@media (max-width: 768px) {
 	#hamburger-menu {
 		display: inline-block;
-	}
+	}} 
 
 	.navbar {
 		padding: 2%;
@@ -564,5 +564,3 @@ body {
 			font-size: 55%;
 		}
 	}
-
-
