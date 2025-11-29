@@ -57,7 +57,7 @@ body {
 .navbar .navbar-nav a {
 	color: #b49c53;
 	display: inline-block;
-	font-size: 1.3 rem;
+	font-size: 1.3rem;
 	margin: 0 1rem;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .navbar .navbar-extra a {
 	color: var(--primary);
-	margin: 0 0.5rem;
+	margin-left: 1rem;
 }
 
 .navbar .navbar-extra a:hover {
@@ -89,7 +89,6 @@ body {
 
 #hamburger-menu {
 	display: none;
-	color: #d4a377;
 	cursor: pointer;
 }
 

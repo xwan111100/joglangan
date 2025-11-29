@@ -1,12 +1,13 @@
+feather.replace();
+
 // Toggle class active
 const navbarNav = document.querySelector('.navbar-nav');
-// ketika hamburger menu di klik
-document.querySelector('#hamburger-menu').onclick = () => {
-    navbarNav.classList.toggle('active');
-};
+const hamburger = document.querySelector('#hamburger-menu');
 
-// Klik diluar sidebar untuk menghilangkan nav
-const hamburger = document.querySelector ('#hamburger-menu');
+hamburger.addEventListener("click", function (e) {
+    e.preventDefault();
+    navbarNav.classList.toggle("active");
+});
 
 document.addEventListener('click', function(e){
     if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
