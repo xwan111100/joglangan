@@ -89,6 +89,8 @@ body {
 
 #hamburger-menu {
 	display: none;
+	color: #d4a377;
+	cursor: pointer;
 }
 
 /* Home Section */
@@ -468,7 +470,8 @@ body {
 	@media (max-width: 768px) {
 	#hamburger-menu {
 		display: inline-block;
-	}} 
+		}
+	} 
 
 	.navbar {
 		padding: 2%;
